@@ -1,0 +1,241 @@
+.nav-custom {
+  background-color: #7f4f24 !important;
+  width: 100%;
+  position: relative;
+  font-family: "Concert One", sans-serif;
+}
+
+.navbar {
+  height: auto;
+  min-height: 6vh;
+  display: flex;
+  font-size: 25px;
+  position: fixed;
+  z-index: 1000;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  color: #000000a6;
+}
+
+#nav {
+  text-align: center;
+}
+
+.navbar-toggler {
+  z-index: 1;
+  margin-left: auto;
+}
+
+.navbar-collapse {
+  width: 100%;
+  z-index: 0;
+  justify-content: center;
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.navbar-brand:hover {
+  color: #b08968;
+}
+.nav-link:hover {
+  color: #b08968;
+}
+
+/*Hero Section*/
+
+#hero-section {
+  background-image: linear-gradient(
+      rgba(101, 109, 74, 0.3),
+      rgba(101, 109, 74, 0.3)
+    ),
+    url(https://preview.redd.it/x465cgfx70l61.png?auto=webp&s=aa5ca2164c585e17d2ea32ff77eacd5ac4a6b27e);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 750px;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+.headshot {
+  border-radius: 50%;
+  height: 35%;
+  border: 3px solid #b08968;
+  transition: height 0.1s ease;
+}
+
+/* On medium screens (tablets) and above */
+@media (min-width: 768px) {
+  .headshot {
+    height: 40%;
+  }
+}
+
+/* On large screens (desktops) and above */
+@media (min-width: 992px) {
+  .headshot {
+    height: 43%;
+  }
+}
+
+/* On extra-large screens */
+@media (min-width: 1200px) {
+  .headshot {
+    height: 45%;
+  }
+}
+#hero-section h1 {
+  margin-top: 20px; /* Adds some space between the image and the heading */
+  color: #faedca;
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: "Press Start 2P", system-ui;
+}
+#hero-section h2 {
+  margin-top: 5px; /* Adds some space between the image and the heading */
+  color: #faedca;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  font-family: "Press Start 2P", system-ui;
+}
+
+/*About me section*/
+#skills-bg {
+  padding: 0px 10px;
+  background-color: #c2c5aa;
+}
+#mission-section h2 {
+  font-weight: bold;
+  font-size: 35px;
+  color: #c2c5aa;
+  font-family: "Pacifico", cursive !important;
+}
+
+#mission-section img {
+  margin-top: 30px;
+  width: 100%; /* Make the image responsive to the column width */
+  max-width: 400px; /* Set a maximum width to prevent it from getting too large */
+  height: auto; /* Maintain the aspect ratio */
+  border-radius: 30px;
+}
+#mission-section {
+  background-color: #414833;
+  width: 100%;
+  text-align: center;
+  color: black;
+  padding: 0px 10px; /* Adjust padding for top and bottom */
+  padding-bottom: 20px; /* Adds space between mission section and footer */
+}
+
+#me {
+  font-weight: bold;
+}
+#mission-section p {
+  font-size: 20px;
+}
+#mission-section .col-md-8 {
+  border-radius: 30px;
+  padding-top: -30px;
+  padding-left: 20px;
+  margin-top: 30px;
+  padding-right: 20px;
+}
+
+/*Skills*/
+
+.icon-large {
+  font-size: 4rem; /* Make the icon larger */
+  color: #582f0e;
+}
+#skills-section h2 {
+  font-size: 40px;
+  color: #1e2f23;
+  font-family: "Pacifico", cursive !important;
+}
+#skills-section {
+  padding: 30px 20px;
+  gap: 40px;
+}
+.skill {
+  font-weight: bold;
+}
+#skills-section2 {
+  padding-bottom: 20px;
+}
+
+/*Contact Section*/
+#contact-section h2 {
+  color: #718355;
+}
+#contact-section {
+  padding: 20px 0;
+  width: 100%;
+  color: white;
+}
+#contact-section i:hover {
+  color: #b08968;
+}
+
+#contact-bg {
+  background-color: #414833;
+  width: 100%;
+}
+/*Footer
+*/
+#footer-section {
+  background-color: #414833;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+}
+.footer-note {
+  color: #718355;
+  margin-top: 30px;
+}
+
+/*Projects section*/
+.project-card {
+  background-color: #516957;
+  border: 1px solid #b7b7a4;
+  padding: 20px;
+  text-align: center;
+  margin-bottom: 120px;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
+#project-section h2 {
+  font-size: 40px;
+  font-family: "Pacifico", cursive !important;
+  padding-bottom: 20px;
+  color: #c2c5aa;
+}
+#project-section {
+  background-color: #1e2f23;
+  padding-top: 1px;
+}
+#project-section a {
+  text-decoration: none;
+  color: #748b75;
+}
+
+/*Resume page*/
+#resume img {
+  width: 800[x];
+}
